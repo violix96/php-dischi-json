@@ -4,23 +4,32 @@
 $data = [
     [
         'artist' => 'Bob Dylan',
-        'song' => 'Like a Rolling Stone'
+        'song' => 'Like a Rolling Stone',
+        'cover' => 'img/Bob Dylan.jpeg'
     ],
     [
         'artist' => 'The Beatles',
-        'song' => 'Hey Jude'
+        'song' => 'Hey Jude',
+        'cover' => 'img/Beatles2.webp'
+
     ],
     [
         'artist' => 'Queen',
-        'song' => 'Bohemian Rhapsody'
+        'song' => 'Bohemian Rhapsody',
+        'cover' => 'img/queen2.jpeg'
+
     ],
     [
         'artist' => 'Michael Jackson',
-        'song' => 'Thriller'
+        'song' => 'Thriller',
+        'cover' => 'img/mj.jpeg'
+
     ],
     [
         'artist' => 'Elvis Presley',
-        'song' => 'Can\'t Help Falling in Love'
+        'song' => 'Can\'t Help Falling in Love',
+        'cover' => 'img/elvis.jpeg'
+
     ]
 ];
 

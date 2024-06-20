@@ -9,8 +9,22 @@
 </head>
 
 <body>
-    <div id="app"></div>
 
+    <div id="app">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <div class="card mt-4" v-for="album in data" :key="album.artist">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ album.song }}</h5>
+                            <p class="card-text">Artist: {{ album.artist }}</p>
+                            <img :src="album.cover" alt="Album cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.2/axios.min.js" integrity="sha512-JSCFHhKDilTRRXe9ak/FJ28dcpOJxzQaCd3Xg8MyF6XFjODhy/YMCM8HW0TFDckNHWUewW+kfvhin43hKtJxAw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
