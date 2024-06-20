@@ -3,8 +3,24 @@
 
 $data = [
     [
-        'name' => 'vincenzo',
-        'age' => 20
+        'artist' => 'Bob Dylan',
+        'song' => 'Like a Rolling Stone'
+    ],
+    [
+        'artist' => 'The Beatles',
+        'song' => 'Hey Jude'
+    ],
+    [
+        'artist' => 'Queen',
+        'song' => 'Bohemian Rhapsody'
+    ],
+    [
+        'artist' => 'Michael Jackson',
+        'song' => 'Thriller'
+    ],
+    [
+        'artist' => 'Elvis Presley',
+        'song' => 'Can\'t Help Falling in Love'
     ]
 ];
 
