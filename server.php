@@ -34,7 +34,7 @@ $data = [
     ]
 ];
 
-
+// informa il client che il server sta per inviare una risposta in formato JSON
 header('Content-Type: application/json');
 
 echo json_encode($data);

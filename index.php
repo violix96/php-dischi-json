@@ -11,7 +11,7 @@
 
 <body>
 
-    <div id="app">
+    <div id="app" v-cloak>
         <div class="container">
             <div class="row">
                 <div class="col-md-6 mx-auto">
